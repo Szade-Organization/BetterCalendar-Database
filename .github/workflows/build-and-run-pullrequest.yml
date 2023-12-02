@@ -12,6 +12,6 @@ jobs:
       - name: Checkout
         uses: actions/checkout@v3
       - name: Build the Docker image
-        run: docker build -t ghcr.io/szade-organization/bettercalendar-database:latest .
+        run: docker buildx build -t ghcr.io/szade-organization/bettercalendar-database:test .
       - name: Run the Docker image
-        run: docker run docker run -p 27017:27017 -e "MONGO_INITDB_ROOT_USERNAME=username" -e "MONGO_INITDB_ROOT_PASSWORD=password" ghcr.io/szade-organization/bettercalendar-database:latest
+        run: docker run docker run -p 27017:27017 -e "MONGO_INITDB_ROOT_USERNAME=username" -e "MONGO_INITDB_ROOT_PASSWORD=password" ghcr.io/szade-organization/bettercalendar-database:test
