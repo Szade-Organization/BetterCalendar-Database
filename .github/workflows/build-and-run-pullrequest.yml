@@ -1,0 +1,20 @@
+name: Build and run Docker image
+
+on:
+  pull_request:
+    branches:
+      - main
+
+jobs:
+  build-and-run:
+    runs-on: ubuntu-latest
+    steps: 
+      - name: Checkout
+        uses: actions/checkout@v3
+      - name: Build the Docker image
+        run: docker build -t ghcr.io/szade-organization/bettercalendar-database:test .
+      - name: Run the Docker image
+        uses: addnab/docker-run-action@v3
+        with:
+          image: ghcr.io/szade-organization/bettercalendar-database:test
+          options: -p 27017:27017 -e "MONGO_INITDB_ROOT_USERNAME=username" -e "MONGO_INITDB_ROOT_PASSWORD=password"
