@@ -5,7 +5,7 @@
 ### docker run
 
 ```
-docker run -p 27017:27017  -e "MONGO_INITDB_ROOT_USERNAME=username" -e "MONGO_INITDB_ROOT_PASSWORD=password" bettercalendar-database:latest
+docker run -p 27017:27017  -e "MONGO_INITDB_ROOT_USERNAME=username" -e "MONGO_INITDB_ROOT_PASSWORD=password" ghcr.io/szade-organization/bettercalendar-database:latest
 ```
 
 ### docker-compose:
@@ -13,7 +13,7 @@ docker run -p 27017:27017  -e "MONGO_INITDB_ROOT_USERNAME=username" -e "MONGO_IN
 ```
 services:
   bettercalendar-database:
-    image: bettercalendar-database:latest
+    image: ghcr.io/szade-organization/bettercalendar-database:latest
     ports:
       - 27017:27017
     environments:
