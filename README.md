@@ -5,7 +5,11 @@
 ### docker run
 
 ```
-docker run -p 27017:27017  -e "MONGO_INITDB_ROOT_USERNAME=username" -e "MONGO_INITDB_ROOT_PASSWORD=password" ghcr.io/szade-organization/bettercalendar-database:latest
+docker run -p 27017:27017  \
+    -e "MONGO_INITDB_ROOT_USERNAME=username" \
+    -e "MONGO_INITDB_ROOT_PASSWORD=password" \
+    -v <path_to_directory_on_host>:/data/db \ (optional)
+    ghcr.io/szade-organization/bettercalendar-database:latest
 ```
 
 ### docker-compose:
@@ -19,6 +23,8 @@ services:
     environments:
       - "MONGO_INITDB_ROOT_USERNAME=username"
       - "MONGO_INITDB_ROOT_PASSWORD=password"
+    volumes:
+      - <path_to_directory_on_host>:/data/db #optional - mongodb data directory
 ```
 
 ## How to add data:
