@@ -11,7 +11,10 @@ docker run -p 27017:27017  \
     -v <path_to_directory_on_host>:/data/db \ (optional)
     ghcr.io/szade-organization/bettercalendar-database:latest
 ```
-
+# Connection string:
+`export BC_DB_CONNECTION_STRING='mongodb://user:password@localhost/?retryWrites=true&w=majority'  
+The user and password are set by you during running the container above.  
+  
 ### docker-compose:
 
 ```
