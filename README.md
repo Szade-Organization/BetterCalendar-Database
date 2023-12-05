@@ -12,7 +12,7 @@ docker run -p 27017:27017  \
     ghcr.io/szade-organization/bettercalendar-database:latest
 ```
 # Connection string:
-`export BC_DB_CONNECTION_STRING='mongodb://user:password@localhost/?retryWrites=true&w=majority'  
+`export BC_DB_CONNECTION_STRING='mongodb://user:password@localhost/?retryWrites=true&w=majority'`  
 The user and password are set by you during running the container above.  
   
 ### docker-compose:
