@@ -4,6 +4,10 @@ on:
   pull_request:
     branches:
       - main
+    paths:
+      - 'scripts/*'
+      - 'Dockerfile'
+      - '.github/workflows/*'
 
 jobs:
   build-and-run:
