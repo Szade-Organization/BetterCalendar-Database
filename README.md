@@ -1,5 +1,9 @@
 # BetterCalendar-Database
 
+## Connection string:
+`BC_DB_CONNECTION_STRING='mongodb://user:password@localhost/?retryWrites=true&w=majority'`  
+The user and password are set by you during running the container above.
+
 ## How to run container:
 
 ### docker run
@@ -14,11 +18,6 @@ docker run -itd -p 27017:27017  \
 ```
 `username` and `password` are set by you.  
 the `-v path_to_directory_on_host>:/data/db` is purely optional and mostly used if low on memory and want to run the db on specific disk.  
-
-
-# Connection string:
-`BC_DB_CONNECTION_STRING='mongodb://user:password@localhost/?retryWrites=true&w=majority'`  
-The user and password are set by you during running the container above.
   
 ### docker-compose:
 
