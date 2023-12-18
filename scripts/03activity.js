@@ -2599,4 +2599,4 @@ data = [{
   }
 }];
 db.createCollection("API_activity");
-db.API_userdata.insert(data);
+db.API_activity.insert(data);
