@@ -1,7 +1,4 @@
 data = [{
-    "_id": {
-      "$oid": "6580ba38c4b5c936941a540f"
-    },
     "id": 1,
     "name": "hobbies",
     "user_id": 8,
@@ -17,9 +14,6 @@ data = [{
     }
   },
   {
-    "_id": {
-      "$oid": "6580ba38c4b5c936941a5410"
-    },
     "id": 2,
     "name": "socializing",
     "user_id": 8,
@@ -35,9 +29,6 @@ data = [{
     }
   },
   {
-    "_id": {
-      "$oid": "6580ba38c4b5c936941a5411"
-    },
     "id": 3,
     "name": "socializing",
     "user_id": 8,
@@ -53,9 +44,6 @@ data = [{
     }
   },
   {
-    "_id": {
-      "$oid": "6580ba38c4b5c936941a5412"
-    },
     "id": 4,
     "name": "volunteering",
     "user_id": 5,
@@ -71,9 +59,6 @@ data = [{
     }
   },
   {
-    "_id": {
-      "$oid": "6580ba38c4b5c936941a5413"
-    },
     "id": 5,
     "name": "volunteering",
     "user_id": 6,
