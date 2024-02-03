@@ -1,7 +1,4 @@
 data = [{
-  "_id": {
-    "$oid": "6580ba38c4b5c936941a5414"
-  },
   "id": 1,
   "name": "Board game creation",
   "user_id": 9,
@@ -25,9 +22,6 @@ data = [{
   }
 },
 {
-  "_id": {
-    "$oid": "6580ba38c4b5c936941a5415"
-  },
   "id": 2,
   "name": "Movie night",
   "user_id": 4,
@@ -51,9 +45,6 @@ data = [{
   }
 },
 {
-  "_id": {
-    "$oid": "6580ba38c4b5c936941a5416"
-  },
   "id": 3,
   "name": "Home movie marathon",
   "user_id": 8,
@@ -77,9 +68,6 @@ data = [{
   }
 },
 {
-  "_id": {
-    "$oid": "6580ba38c4b5c936941a5417"
-  },
   "id": 4,
   "name": "Client call",
   "user_id": 1,
@@ -103,9 +91,6 @@ data = [{
   }
 },
 {
-  "_id": {
-    "$oid": "6580ba38c4b5c936941a5418"
-  },
   "id": 5,
   "name": "Job interview",
   "user_id": 2,
@@ -129,9 +114,6 @@ data = [{
   }
 },
 {
-  "_id": {
-    "$oid": "6580ba38c4b5c936941a5419"
-  },
   "id": 6,
   "name": "Documentary watching",
   "user_id": 1,
@@ -155,9 +137,6 @@ data = [{
   }
 },
 {
-  "_id": {
-    "$oid": "6580ba38c4b5c936941a541a"
-  },
   "id": 7,
   "name": "Client call",
   "user_id": 4,
@@ -181,9 +160,6 @@ data = [{
   }
 },
 {
-  "_id": {
-    "$oid": "6580ba38c4b5c936941a541b"
-  },
   "id": 8,
   "name": "Charity run",
   "user_id": 4,
@@ -207,9 +183,6 @@ data = [{
   }
 },
 {
-  "_id": {
-    "$oid": "6580ba38c4b5c936941a541c"
-  },
   "id": 9,
   "name": "Online board game night",
   "user_id": 7,
@@ -233,9 +206,6 @@ data = [{
   }
 },
 {
-  "_id": {
-    "$oid": "6580ba38c4b5c936941a541d"
-  },
   "id": 10,
   "name": "Local museum visit",
   "user_id": 4,
@@ -259,9 +229,6 @@ data = [{
   }
 },
 {
-  "_id": {
-    "$oid": "6580ba38c4b5c936941a541e"
-  },
   "id": 11,
   "name": "Webinar attendance",
   "user_id": 5,
@@ -285,9 +252,6 @@ data = [{
   }
 },
 {
-  "_id": {
-    "$oid": "6580ba38c4b5c936941a541f"
-  },
   "id": 12,
   "name": "Client call",
   "user_id": 8,
@@ -311,9 +275,6 @@ data = [{
   }
 },
 {
-  "_id": {
-    "$oid": "6580ba38c4b5c936941a5420"
-  },
   "id": 13,
   "name": "Mindfulness meditation",
   "user_id": 6,
@@ -337,9 +298,6 @@ data = [{
   }
 },
 {
-  "_id": {
-    "$oid": "6580ba38c4b5c936941a5421"
-  },
   "id": 14,
   "name": "Date night",
   "user_id": 8,
@@ -363,9 +321,6 @@ data = [{
   }
 },
 {
-  "_id": {
-    "$oid": "6580ba38c4b5c936941a5422"
-  },
   "id": 15,
   "name": "Local museum visit",
   "user_id": 8,
@@ -389,9 +344,6 @@ data = [{
   }
 },
 {
-  "_id": {
-    "$oid": "6580ba38c4b5c936941a5423"
-  },
   "id": 16,
   "name": "DIY home spa day",
   "user_id": 7,
@@ -415,9 +367,6 @@ data = [{
   }
 },
 {
-  "_id": {
-    "$oid": "6580ba38c4b5c936941a5424"
-  },
   "id": 17,
   "name": "Photobook creation",
   "user_id": 7,
@@ -441,9 +390,6 @@ data = [{
   }
 },
 {
-  "_id": {
-    "$oid": "6580ba38c4b5c936941a5425"
-  },
   "id": 18,
   "name": "Craft beer tasting",
   "user_id": 8,
@@ -467,9 +413,6 @@ data = [{
   }
 },
 {
-  "_id": {
-    "$oid": "6580ba38c4b5c936941a5426"
-  },
   "id": 19,
   "name": "Online course",
   "user_id": 5,
@@ -493,9 +436,6 @@ data = [{
   }
 },
 {
-  "_id": {
-    "$oid": "6580ba38c4b5c936941a5427"
-  },
   "id": 20,
   "name": "Board game night",
   "user_id": 1,
@@ -519,9 +459,6 @@ data = [{
   }
 },
 {
-  "_id": {
-    "$oid": "6580ba38c4b5c936941a5428"
-  },
   "id": 21,
   "name": "Science fair preparation",
   "user_id": 10,
@@ -545,9 +482,6 @@ data = [{
   }
 },
 {
-  "_id": {
-    "$oid": "6580ba38c4b5c936941a5429"
-  },
   "id": 22,
   "name": "Networking event",
   "user_id": 4,
@@ -571,9 +505,6 @@ data = [{
   }
 },
 {
-  "_id": {
-    "$oid": "6580ba38c4b5c936941a542a"
-  },
   "id": 23,
   "name": "Webinar attendance",
   "user_id": 1,
@@ -597,9 +528,6 @@ data = [{
   }
 },
 {
-  "_id": {
-    "$oid": "6580ba38c4b5c936941a542b"
-  },
   "id": 24,
   "name": "Doctor's appointment",
   "user_id": 4,
@@ -623,9 +551,6 @@ data = [{
   }
 },
 {
-  "_id": {
-    "$oid": "6580ba38c4b5c936941a542c"
-  },
   "id": 25,
   "name": "Local museum visit",
   "user_id": 3,
@@ -649,9 +574,6 @@ data = [{
   }
 },
 {
-  "_id": {
-    "$oid": "6580ba38c4b5c936941a542d"
-  },
   "id": 26,
   "name": "Home workout",
   "user_id": 5,
@@ -675,9 +597,6 @@ data = [{
   }
 },
 {
-  "_id": {
-    "$oid": "6580ba38c4b5c936941a542e"
-  },
   "id": 27,
   "name": "Volunteer work",
   "user_id": 5,
@@ -701,9 +620,6 @@ data = [{
   }
 },
 {
-  "_id": {
-    "$oid": "6580ba38c4b5c936941a542f"
-  },
   "id": 28,
   "name": "Local museum visit",
   "user_id": 8,
@@ -727,9 +643,6 @@ data = [{
   }
 },
 {
-  "_id": {
-    "$oid": "6580ba38c4b5c936941a5430"
-  },
   "id": 29,
   "name": "Virtual travel exploration",
   "user_id": 8,
@@ -753,9 +666,6 @@ data = [{
   }
 },
 {
-  "_id": {
-    "$oid": "6580ba38c4b5c936941a5431"
-  },
   "id": 30,
   "name": "Bike maintenance",
   "user_id": 10,
@@ -779,9 +689,6 @@ data = [{
   }
 },
 {
-  "_id": {
-    "$oid": "6580ba38c4b5c936941a5432"
-  },
   "id": 31,
   "name": "Candle making",
   "user_id": 7,
@@ -805,9 +712,6 @@ data = [{
   }
 },
 {
-  "_id": {
-    "$oid": "6580ba38c4b5c936941a5433"
-  },
   "id": 32,
   "name": "Mindfulness meditation",
   "user_id": 7,
@@ -831,9 +735,6 @@ data = [{
   }
 },
 {
-  "_id": {
-    "$oid": "6580ba38c4b5c936941a5434"
-  },
   "id": 33,
   "name": "Online course",
   "user_id": 10,
@@ -857,9 +758,6 @@ data = [{
   }
 },
 {
-  "_id": {
-    "$oid": "6580ba38c4b5c936941a5435"
-  },
   "id": 34,
   "name": "Coffee meeting",
   "user_id": 9,
@@ -883,9 +781,6 @@ data = [{
   }
 },
 {
-  "_id": {
-    "$oid": "6580ba38c4b5c936941a5436"
-  },
   "id": 35,
   "name": "Board game night",
   "user_id": 4,
@@ -909,9 +804,6 @@ data = [{
   }
 },
 {
-  "_id": {
-    "$oid": "6580ba38c4b5c936941a5437"
-  },
   "id": 36,
   "name": "Gardening session",
   "user_id": 4,
@@ -935,9 +827,6 @@ data = [{
   }
 },
 {
-  "_id": {
-    "$oid": "6580ba38c4b5c936941a5438"
-  },
   "id": 37,
   "name": "Art and wine night",
   "user_id": 5,
@@ -961,9 +850,6 @@ data = [{
   }
 },
 {
-  "_id": {
-    "$oid": "6580ba38c4b5c936941a5439"
-  },
   "id": 38,
   "name": "Home office setup",
   "user_id": 8,
@@ -987,9 +873,6 @@ data = [{
   }
 },
 {
-  "_id": {
-    "$oid": "6580ba38c4b5c936941a543a"
-  },
   "id": 39,
   "name": "Gardening session",
   "user_id": 6,
@@ -1013,9 +896,6 @@ data = [{
   }
 },
 {
-  "_id": {
-    "$oid": "6580ba38c4b5c936941a543b"
-  },
   "id": 40,
   "name": "Dentist appointment",
   "user_id": 5,
@@ -1039,9 +919,6 @@ data = [{
   }
 },
 {
-  "_id": {
-    "$oid": "6580ba38c4b5c936941a543c"
-  },
   "id": 41,
   "name": "Personal finance review",
   "user_id": 7,
@@ -1065,9 +942,6 @@ data = [{
   }
 },
 {
-  "_id": {
-    "$oid": "6580ba38c4b5c936941a543d"
-  },
   "id": 42,
   "name": "Online shopping",
   "user_id": 1,
@@ -1091,9 +965,6 @@ data = [{
   }
 },
 {
-  "_id": {
-    "$oid": "6580ba38c4b5c936941a543e"
-  },
   "id": 43,
   "name": "Astrophotography",
   "user_id": 8,
@@ -1117,9 +988,6 @@ data = [{
   }
 },
 {
-  "_id": {
-    "$oid": "6580ba38c4b5c936941a543f"
-  },
   "id": 44,
   "name": "Comic book reading",
   "user_id": 4,
@@ -1143,9 +1011,6 @@ data = [{
   }
 },
 {
-  "_id": {
-    "$oid": "6580ba38c4b5c936941a5440"
-  },
   "id": 45,
   "name": "Parent-teacher meeting",
   "user_id": 3,
@@ -1169,9 +1034,6 @@ data = [{
   }
 },
 {
-  "_id": {
-    "$oid": "6580ba38c4b5c936941a5441"
-  },
   "id": 46,
   "name": "Interior decorating",
   "user_id": 4,
@@ -1195,9 +1057,6 @@ data = [{
   }
 },
 {
-  "_id": {
-    "$oid": "6580ba38c4b5c936941a5442"
-  },
   "id": 47,
   "name": "Collectible card gaming",
   "user_id": 1,
@@ -1221,9 +1080,6 @@ data = [{
   }
 },
 {
-  "_id": {
-    "$oid": "6580ba38c4b5c936941a5443"
-  },
   "id": 48,
   "name": "Online multiplayer gaming",
   "user_id": 10,
@@ -1247,9 +1103,6 @@ data = [{
   }
 },
 {
-  "_id": {
-    "$oid": "6580ba39c4b5c936941a5444"
-  },
   "id": 49,
   "name": "Art and wine night",
   "user_id": 1,
@@ -1273,9 +1126,6 @@ data = [{
   }
 },
 {
-  "_id": {
-    "$oid": "6580ba39c4b5c936941a5445"
-  },
   "id": 50,
   "name": "Online dating profile setup",
   "user_id": 9,
@@ -1299,9 +1149,6 @@ data = [{
   }
 },
 {
-  "_id": {
-    "$oid": "6580ba39c4b5c936941a5446"
-  },
   "id": 51,
   "name": "Virtual reality gaming",
   "user_id": 10,
@@ -1325,9 +1172,6 @@ data = [{
   }
 },
 {
-  "_id": {
-    "$oid": "6580ba39c4b5c936941a5447"
-  },
   "id": 52,
   "name": "Virtual reality gaming",
   "user_id": 10,
@@ -1351,9 +1195,6 @@ data = [{
   }
 },
 {
-  "_id": {
-    "$oid": "6580ba39c4b5c936941a5448"
-  },
   "id": 53,
   "name": "Job interview",
   "user_id": 2,
@@ -1377,9 +1218,6 @@ data = [{
   }
 },
 {
-  "_id": {
-    "$oid": "6580ba39c4b5c936941a5449"
-  },
   "id": 54,
   "name": "Home improvement",
   "user_id": 5,
@@ -1403,9 +1241,6 @@ data = [{
   }
 },
 {
-  "_id": {
-    "$oid": "6580ba39c4b5c936941a544a"
-  },
   "id": 55,
   "name": "Salsa dance class",
   "user_id": 5,
@@ -1429,9 +1264,6 @@ data = [{
   }
 },
 {
-  "_id": {
-    "$oid": "6580ba39c4b5c936941a544b"
-  },
   "id": 56,
   "name": "Family board game night",
   "user_id": 3,
@@ -1455,9 +1287,6 @@ data = [{
   }
 },
 {
-  "_id": {
-    "$oid": "6580ba39c4b5c936941a544c"
-  },
   "id": 57,
   "name": "Cooking class",
   "user_id": 7,
@@ -1481,9 +1310,6 @@ data = [{
   }
 },
 {
-  "_id": {
-    "$oid": "6580ba39c4b5c936941a544d"
-  },
   "id": 58,
   "name": "Charity run",
   "user_id": 7,
@@ -1507,9 +1333,6 @@ data = [{
   }
 },
 {
-  "_id": {
-    "$oid": "6580ba39c4b5c936941a544e"
-  },
   "id": 59,
   "name": "Coffee meeting",
   "user_id": 6,
@@ -1533,9 +1356,6 @@ data = [{
   }
 },
 {
-  "_id": {
-    "$oid": "6580ba39c4b5c936941a544f"
-  },
   "id": 60,
   "name": "Home improvement",
   "user_id": 9,
@@ -1559,9 +1379,6 @@ data = [{
   }
 },
 {
-  "_id": {
-    "$oid": "6580ba39c4b5c936941a5450"
-  },
   "id": 61,
   "name": "Home workout",
   "user_id": 8,
@@ -1585,9 +1402,6 @@ data = [{
   }
 },
 {
-  "_id": {
-    "$oid": "6580ba39c4b5c936941a5451"
-  },
   "id": 62,
   "name": "Academic research",
   "user_id": 9,
@@ -1611,9 +1425,6 @@ data = [{
   }
 },
 {
-  "_id": {
-    "$oid": "6580ba39c4b5c936941a5452"
-  },
   "id": 63,
   "name": "Team building activity",
   "user_id": 4,
@@ -1637,9 +1448,6 @@ data = [{
   }
 },
 {
-  "_id": {
-    "$oid": "6580ba39c4b5c936941a5453"
-  },
   "id": 64,
   "name": "Job interview",
   "user_id": 10,
@@ -1663,9 +1471,6 @@ data = [{
   }
 },
 {
-  "_id": {
-    "$oid": "6580ba39c4b5c936941a5454"
-  },
   "id": 65,
   "name": "Camping trip",
   "user_id": 10,
@@ -1689,9 +1494,6 @@ data = [{
   }
 },
 {
-  "_id": {
-    "$oid": "6580ba39c4b5c936941a5455"
-  },
   "id": 66,
   "name": "Job interview",
   "user_id": 8,
@@ -1715,9 +1517,6 @@ data = [{
   }
 },
 {
-  "_id": {
-    "$oid": "6580ba39c4b5c936941a5456"
-  },
   "id": 67,
   "name": "Home budgeting",
   "user_id": 1,
@@ -1741,9 +1540,6 @@ data = [{
   }
 },
 {
-  "_id": {
-    "$oid": "6580ba39c4b5c936941a5457"
-  },
   "id": 68,
   "name": "Podcast listening",
   "user_id": 1,
@@ -1767,9 +1563,6 @@ data = [{
   }
 },
 {
-  "_id": {
-    "$oid": "6580ba39c4b5c936941a5458"
-  },
   "id": 69,
   "name": "Art and wine night",
   "user_id": 6,
@@ -1793,9 +1586,6 @@ data = [{
   }
 },
 {
-  "_id": {
-    "$oid": "6580ba39c4b5c936941a5459"
-  },
   "id": 70,
   "name": "Gym workout",
   "user_id": 6,
@@ -1819,9 +1609,6 @@ data = [{
   }
 },
 {
-  "_id": {
-    "$oid": "6580ba39c4b5c936941a545a"
-  },
   "id": 71,
   "name": "Virtual travel exploration",
   "user_id": 4,
@@ -1845,9 +1632,6 @@ data = [{
   }
 },
 {
-  "_id": {
-    "$oid": "6580ba39c4b5c936941a545b"
-  },
   "id": 72,
   "name": "Software update installations",
   "user_id": 4,
@@ -1871,9 +1655,6 @@ data = [{
   }
 },
 {
-  "_id": {
-    "$oid": "6580ba39c4b5c936941a545c"
-  },
   "id": 73,
   "name": "Personal project work",
   "user_id": 10,
@@ -1897,9 +1678,6 @@ data = [{
   }
 },
 {
-  "_id": {
-    "$oid": "6580ba39c4b5c936941a545d"
-  },
   "id": 74,
   "name": "DIY craft project",
   "user_id": 9,
@@ -1923,9 +1701,6 @@ data = [{
   }
 },
 {
-  "_id": {
-    "$oid": "6580ba39c4b5c936941a545e"
-  },
   "id": 75,
   "name": "Book club meeting",
   "user_id": 7,
@@ -1949,9 +1724,6 @@ data = [{
   }
 },
 {
-  "_id": {
-    "$oid": "6580ba39c4b5c936941a545f"
-  },
   "id": 76,
   "name": "Tech support for family",
   "user_id": 5,
@@ -1975,9 +1747,6 @@ data = [{
   }
 },
 {
-  "_id": {
-    "$oid": "6580ba39c4b5c936941a5460"
-  },
   "id": 77,
   "name": "Interior decorating",
   "user_id": 7,
@@ -2001,9 +1770,6 @@ data = [{
   }
 },
 {
-  "_id": {
-    "$oid": "6580ba39c4b5c936941a5461"
-  },
   "id": 78,
   "name": "Craft beer tasting",
   "user_id": 4,
@@ -2027,9 +1793,6 @@ data = [{
   }
 },
 {
-  "_id": {
-    "$oid": "6580ba39c4b5c936941a5462"
-  },
   "id": 79,
   "name": "Camping trip",
   "user_id": 10,
@@ -2053,9 +1816,6 @@ data = [{
   }
 },
 {
-  "_id": {
-    "$oid": "6580ba39c4b5c936941a5463"
-  },
   "id": 80,
   "name": "Volunteer work",
   "user_id": 4,
@@ -2079,9 +1839,6 @@ data = [{
   }
 },
 {
-  "_id": {
-    "$oid": "6580ba39c4b5c936941a5464"
-  },
   "id": 81,
   "name": "Bike maintenance",
   "user_id": 1,
@@ -2105,9 +1862,6 @@ data = [{
   }
 },
 {
-  "_id": {
-    "$oid": "6580ba39c4b5c936941a5465"
-  },
   "id": 82,
   "name": "Local museum visit",
   "user_id": 7,
@@ -2131,9 +1885,6 @@ data = [{
   }
 },
 {
-  "_id": {
-    "$oid": "6580ba39c4b5c936941a5466"
-  },
   "id": 83,
   "name": "Virtual reality gaming",
   "user_id": 4,
@@ -2157,9 +1908,6 @@ data = [{
   }
 },
 {
-  "_id": {
-    "$oid": "6580ba39c4b5c936941a5467"
-  },
   "id": 84,
   "name": "Movie night",
   "user_id": 5,
@@ -2183,9 +1931,6 @@ data = [{
   }
 },
 {
-  "_id": {
-    "$oid": "6580ba39c4b5c936941a5468"
-  },
   "id": 85,
   "name": "Astrophotography",
   "user_id": 6,
@@ -2209,9 +1954,6 @@ data = [{
   }
 },
 {
-  "_id": {
-    "$oid": "6580ba39c4b5c936941a5469"
-  },
   "id": 86,
   "name": "Social media management",
   "user_id": 6,
@@ -2235,9 +1977,6 @@ data = [{
   }
 },
 {
-  "_id": {
-    "$oid": "6580ba39c4b5c936941a546a"
-  },
   "id": 87,
   "name": "Lunch with friends",
   "user_id": 5,
@@ -2261,9 +2000,6 @@ data = [{
   }
 },
 {
-  "_id": {
-    "$oid": "6580ba39c4b5c936941a546b"
-  },
   "id": 88,
   "name": "Volunteer work",
   "user_id": 4,
@@ -2287,9 +2023,6 @@ data = [{
   }
 },
 {
-  "_id": {
-    "$oid": "6580ba39c4b5c936941a546c"
-  },
   "id": 89,
   "name": "Puzzle solving",
   "user_id": 2,
@@ -2313,9 +2046,6 @@ data = [{
   }
 },
 {
-  "_id": {
-    "$oid": "6580ba39c4b5c936941a546d"
-  },
   "id": 90,
   "name": "Product launch preparation",
   "user_id": 7,
@@ -2339,9 +2069,6 @@ data = [{
   }
 },
 {
-  "_id": {
-    "$oid": "6580ba39c4b5c936941a546e"
-  },
   "id": 91,
   "name": "Job interview",
   "user_id": 5,
@@ -2365,9 +2092,6 @@ data = [{
   }
 },
 {
-  "_id": {
-    "$oid": "6580ba39c4b5c936941a546f"
-  },
   "id": 92,
   "name": "Candle making",
   "user_id": 4,
@@ -2391,9 +2115,6 @@ data = [{
   }
 },
 {
-  "_id": {
-    "$oid": "6580ba39c4b5c936941a5470"
-  },
   "id": 93,
   "name": "Board game creation",
   "user_id": 1,
@@ -2417,9 +2138,6 @@ data = [{
   }
 },
 {
-  "_id": {
-    "$oid": "6580ba39c4b5c936941a5471"
-  },
   "id": 94,
   "name": "Home movie marathon",
   "user_id": 6,
@@ -2443,9 +2161,6 @@ data = [{
   }
 },
 {
-  "_id": {
-    "$oid": "6580ba39c4b5c936941a5472"
-  },
   "id": 95,
   "name": "Movie night",
   "user_id": 1,
@@ -2469,9 +2184,6 @@ data = [{
   }
 },
 {
-  "_id": {
-    "$oid": "6580ba39c4b5c936941a5473"
-  },
   "id": 96,
   "name": "Doctor's appointment",
   "user_id": 5,
@@ -2495,9 +2207,6 @@ data = [{
   }
 },
 {
-  "_id": {
-    "$oid": "6580ba39c4b5c936941a5474"
-  },
   "id": 97,
   "name": "Board game creation",
   "user_id": 6,
@@ -2521,9 +2230,6 @@ data = [{
   }
 },
 {
-  "_id": {
-    "$oid": "6580ba39c4b5c936941a5475"
-  },
   "id": 98,
   "name": "Online multiplayer gaming",
   "user_id": 10,
@@ -2547,9 +2253,6 @@ data = [{
   }
 },
 {
-  "_id": {
-    "$oid": "6580ba39c4b5c936941a5476"
-  },
   "id": 99,
   "name": "Webinar attendance",
   "user_id": 7,
@@ -2573,9 +2276,6 @@ data = [{
   }
 },
 {
-  "_id": {
-    "$oid": "6580ba39c4b5c936941a5477"
-  },
   "id": 100,
   "name": "Home cleaning",
   "user_id": 1,
