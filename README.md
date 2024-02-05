@@ -48,8 +48,26 @@ Replace: "new ObjectId($1)"
 
 - **Date**\
 Find: "\{\n\s+"\$date": (".+")\n\s+\}"\
-Replace: "new Date($1)"\
+Replace: "new Date($1)"
 
 - **NumberLong**\
 Find: "\{\n\s+"\$numberLong": (".+")\n\s+\}"\
 Replace: "new NumberLong($1)"
+
+### Making changes to scripts after changing the model
+
+1. Create empty MongoDB server container (https://www.mongodb.com/docs/manual/tutorial/install-mongodb-community-with-docker/)
+2. Pull https://github.com/Szade-Organization/BetterCalendar-API repository
+3. Set up SECRET_KEY and BC_DB_CONNECTION_STRING (to newly created server) environment variables
+4. In BetterCalendar-API directory run `python config/manage.py migrate` and `python config/manage.py populate -u <number_of_users> -c <number_of_categories> -a <number_of_activities>` 
+5. Open MongoDBCompass and connect to server
+6. For every collection in bettercalendar database:\
+6.1. Select collection from list\
+6.2. Click "Export data" and "Export the full collection"\
+6.3. Click "Export..." and save file\
+6.4. Copy file content to `data` variable in collection's JS script (if script does not exist, create new one based on existing script)
+7. Open "scripts" directory in VS Code
+8. Click "Edit" and "Replace in files"
+9. Replace all 3 above regexes in all files.
+
+Steps 7-9 also probably can be done in shell using `sed`
