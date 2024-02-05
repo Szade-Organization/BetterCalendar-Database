@@ -2,4 +2,4 @@ data = [
 
 ]
 db.createCollection("django_session");
-//await db.collection('django_session').insertMany(data);
+//db.getCollection('django_session').insertMany(data);

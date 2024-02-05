@@ -1399,4 +1399,4 @@ data = [{
     "date_modified": new Date("2024-02-05T08:09:32.496Z")
   }];
   db.createCollection("API_activity");
-await db.collection('API_activity').insertMany(data);
+db.getCollection('API_activity').insertMany(data);
