@@ -59,4 +59,4 @@ data = [{
     "date_modified": new Date("2024-02-05T08:09:25.020Z")
   }];
   db.createCollection("API_category");
-db.API_category.insertMany(data);
+db.collection('API_category').insertMany(data);
