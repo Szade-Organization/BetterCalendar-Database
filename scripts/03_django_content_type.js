@@ -47,5 +47,5 @@ data = [{
     "model": "session"
   }];
 db.createCollection("django_content_type");
-db.collection('django_content_type').insertMany(data);
+await db.collection('django_content_type').insertMany(data);
   

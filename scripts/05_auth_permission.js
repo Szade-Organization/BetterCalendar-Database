@@ -223,4 +223,4 @@ data = [{
     "codename": "view_session"
 }];
 db.createCollection("auth_permission");
-db.collection('auth_permission').insertMany(data);
+await db.collection('auth_permission').insertMany(data);

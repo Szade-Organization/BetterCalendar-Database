@@ -169,4 +169,4 @@ data = [
   }
 ];
 db.createCollection("django_migrations");
-db.collection('django_migrations').insertMany(data);
+await db.collection('django_migrations').insertMany(data);

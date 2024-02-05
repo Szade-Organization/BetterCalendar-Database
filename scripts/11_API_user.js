@@ -139,4 +139,4 @@ data = [{
     "date_joined": new Date("2024-02-05T08:09:24.542Z")
   }];
   db.createCollection("API_user");
-db.collection('API_user').insertMany(data);
+  await db.collection('API_user').insertMany(data);

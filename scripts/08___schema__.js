@@ -371,4 +371,4 @@ data = [{
     }
   }];
   db.createCollection("__schema__");
-  db.collection('__schema__').insertMany(data);
+  await db.collection('__schema__').insertMany(data);
