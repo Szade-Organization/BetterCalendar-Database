@@ -43,16 +43,16 @@ Each script has a "data" variable with JSON array. You can export collection to 
 You also have to modify exported JSON. Complex objects such as ObjectId, Date and NumberLong cannot be imported by dictionary declaration. You have to change dictionary declaration to constructor declaration. You can do this through e.g. VS Code with replace with Regex feature.
 
 - **ObjectId**\
-Find: "\{\n\s+"\$oid": (".+")\n\s+\}"\
-Replace: "new ObjectId($1)"
+Find: `\{\n\s+"\$oid": (".+")\n\s+\}`\
+Replace: `new ObjectId($1)`
 
 - **Date**\
-Find: "\{\n\s+"\$date": (".+")\n\s+\}"\
-Replace: "new Date($1)"
+Find: `\{\n\s+"\$date": (".+")\n\s+\}`\
+Replace: `new Date($1)`
 
 - **NumberLong**\
-Find: "\{\n\s+"\$numberLong": (".+")\n\s+\}"\
-Replace: "new NumberLong($1)"
+Find: `\{\n\s+"\$numberLong": (".+")\n\s+\}`\
+Replace: `new NumberLong($1)`
 
 ### Making changes to scripts after changing the model
 
