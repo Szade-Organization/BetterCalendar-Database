@@ -1,7 +1,5 @@
 data = [{
-    "_id": {
-      "$oid": "65c097b48201569859dc13b1"
-    },
+    "_id": new ObjectId("65c097b48201569859dc13b1"),
     "id": 1,
     "name": "work",
     "user_id": 1,
@@ -9,17 +7,11 @@ data = [{
     "color": "GoldenRod",
     "icon": "general.svg",
     "importance_level": "S",
-    "date_created": {
-      "$date": "2024-02-05T08:09:24.863Z"
-    },
-    "date_modified": {
-      "$date": "2024-02-05T08:09:24.863Z"
-    }
+    "date_created": new Date("2024-02-05T08:09:24.863Z"),
+    "date_modified": new Date("2024-02-05T08:09:24.863Z")
   },
   {
-    "_id": {
-      "$oid": "65c097b48201569859dc13b2"
-    },
+    "_id": new ObjectId("65c097b48201569859dc13b2"),
     "id": 2,
     "name": "hobbies",
     "user_id": 7,
@@ -27,17 +19,11 @@ data = [{
     "color": "Black",
     "icon": "stand.svg",
     "importance_level": "M",
-    "date_created": {
-      "$date": "2024-02-05T08:09:24.907Z"
-    },
-    "date_modified": {
-      "$date": "2024-02-05T08:09:24.907Z"
-    }
+    "date_created": new Date("2024-02-05T08:09:24.907Z"),
+    "date_modified": new Date("2024-02-05T08:09:24.907Z")
   },
   {
-    "_id": {
-      "$oid": "65c097b48201569859dc13b3"
-    },
+    "_id": new ObjectId("65c097b48201569859dc13b3"),
     "id": 3,
     "name": "exercise",
     "user_id": 4,
@@ -45,17 +31,11 @@ data = [{
     "color": "DarkSlateBlue",
     "icon": "increase.svg",
     "importance_level": "C",
-    "date_created": {
-      "$date": "2024-02-05T08:09:24.946Z"
-    },
-    "date_modified": {
-      "$date": "2024-02-05T08:09:24.946Z"
-    }
+    "date_created": new Date("2024-02-05T08:09:24.946Z"),
+    "date_modified": new Date("2024-02-05T08:09:24.946Z")
   },
   {
-    "_id": {
-      "$oid": "65c097b48201569859dc13b4"
-    },
+    "_id": new ObjectId("65c097b48201569859dc13b4"),
     "id": 4,
     "name": "yoga",
     "user_id": 2,
@@ -63,17 +43,11 @@ data = [{
     "color": "Beige",
     "icon": "increase.svg",
     "importance_level": "C",
-    "date_created": {
-      "$date": "2024-02-05T08:09:24.980Z"
-    },
-    "date_modified": {
-      "$date": "2024-02-05T08:09:24.980Z"
-    }
+    "date_created": new Date("2024-02-05T08:09:24.980Z"),
+    "date_modified": new Date("2024-02-05T08:09:24.980Z")
   },
   {
-    "_id": {
-      "$oid": "65c097b58201569859dc13b5"
-    },
+    "_id": new ObjectId("65c097b58201569859dc13b5"),
     "id": 5,
     "name": "hobbies",
     "user_id": 3,
@@ -81,12 +55,8 @@ data = [{
     "color": "Aquamarine",
     "icon": "evening.svg",
     "importance_level": "W",
-    "date_created": {
-      "$date": "2024-02-05T08:09:25.020Z"
-    },
-    "date_modified": {
-      "$date": "2024-02-05T08:09:25.020Z"
-    }
+    "date_created": new Date("2024-02-05T08:09:25.020Z"),
+    "date_modified": new Date("2024-02-05T08:09:25.020Z")
   }];
   db.createCollection("API_category");
 db.API_category.insertMany(data);

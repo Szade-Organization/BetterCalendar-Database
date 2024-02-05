@@ -1,7 +1,5 @@
 data = [{
-    "_id": {
-      "$oid": "65c0975dbc6cb0f464b10e61"
-    },
+    "_id": new ObjectId("65c0975dbc6cb0f464b10e61"),
     "name": "django_migrations",
     "auto": {
       "field_names": [
@@ -25,9 +23,7 @@ data = [{
     }
   },
   {
-    "_id": {
-      "$oid": "65c0975dbc6cb0f464b10e66"
-    },
+    "_id": new ObjectId("65c0975dbc6cb0f464b10e66"),
     "name": "django_content_type",
     "auto": {
       "field_names": [
@@ -48,9 +44,7 @@ data = [{
     }
   },
   {
-    "_id": {
-      "$oid": "65c0975dbc6cb0f464b10e75"
-    },
+    "_id": new ObjectId("65c0975dbc6cb0f464b10e75"),
     "name": "auth_permission",
     "auto": {
       "field_names": [
@@ -74,9 +68,7 @@ data = [{
     }
   },
   {
-    "_id": {
-      "$oid": "65c0975dbc6cb0f464b10e7b"
-    },
+    "_id": new ObjectId("65c0975dbc6cb0f464b10e7b"),
     "name": "auth_group",
     "auto": {
       "field_names": [
@@ -94,9 +86,7 @@ data = [{
     }
   },
   {
-    "_id": {
-      "$oid": "65c0975ebc6cb0f464b10e80"
-    },
+    "_id": new ObjectId("65c0975ebc6cb0f464b10e80"),
     "name": "auth_group_permissions",
     "auto": {
       "field_names": [
@@ -117,9 +107,7 @@ data = [{
     }
   },
   {
-    "_id": {
-      "$oid": "65c0975ebc6cb0f464b10eae"
-    },
+    "_id": new ObjectId("65c0975ebc6cb0f464b10eae"),
     "name": "API_category",
     "auto": {
       "field_names": [
@@ -158,9 +146,7 @@ data = [{
     }
   },
   {
-    "_id": {
-      "$oid": "65c0975ebc6cb0f464b10eb3"
-    },
+    "_id": new ObjectId("65c0975ebc6cb0f464b10eb3"),
     "name": "API_location",
     "auto": {
       "field_names": [
@@ -181,9 +167,7 @@ data = [{
     }
   },
   {
-    "_id": {
-      "$oid": "65c0975ebc6cb0f464b10eb8"
-    },
+    "_id": new ObjectId("65c0975ebc6cb0f464b10eb8"),
     "name": "API_userdata",
     "auto": {
       "field_names": [
@@ -204,9 +188,7 @@ data = [{
     }
   },
   {
-    "_id": {
-      "$oid": "65c0975ebc6cb0f464b10ec0"
-    },
+    "_id": new ObjectId("65c0975ebc6cb0f464b10ec0"),
     "name": "API_activity",
     "auto": {
       "field_names": [
@@ -251,9 +233,7 @@ data = [{
     }
   },
   {
-    "_id": {
-      "$oid": "65c0975ebc6cb0f464b10ec6"
-    },
+    "_id": new ObjectId("65c0975ebc6cb0f464b10ec6"),
     "name": "API_user",
     "auto": {
       "field_names": [
@@ -298,9 +278,7 @@ data = [{
     }
   },
   {
-    "_id": {
-      "$oid": "65c0975ebc6cb0f464b10ecb"
-    },
+    "_id": new ObjectId("65c0975ebc6cb0f464b10ecb"),
     "name": "API_user_groups",
     "auto": {
       "field_names": [
@@ -321,9 +299,7 @@ data = [{
     }
   },
   {
-    "_id": {
-      "$oid": "65c0975fbc6cb0f464b10ed0"
-    },
+    "_id": new ObjectId("65c0975fbc6cb0f464b10ed0"),
     "name": "API_user_user_permissions",
     "auto": {
       "field_names": [
@@ -344,9 +320,7 @@ data = [{
     }
   },
   {
-    "_id": {
-      "$oid": "65c0975fbc6cb0f464b10f03"
-    },
+    "_id": new ObjectId("65c0975fbc6cb0f464b10f03"),
     "name": "django_admin_log",
     "auto": {
       "field_names": [
@@ -382,9 +356,7 @@ data = [{
     }
   },
   {
-    "_id": {
-      "$oid": "65c09760bc6cb0f464b10f13"
-    },
+    "_id": new ObjectId("65c09760bc6cb0f464b10f13"),
     "name": "django_session",
     "fields": {
       "expire_date": {
