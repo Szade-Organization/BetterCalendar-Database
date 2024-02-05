@@ -1,119 +1,64 @@
 // django_session
+const django_session = require('./bettercalendar.django_session.json');
 db.createCollection("django_session");
-fetch('./bettercalendar.django_session.json')
-.then((res) => {
-    return res.json()
-})
-.then((data) => {
-    db.django_session.insertMany(data);
-});
+db.django_session.insertMany(django_session);
 
 // django_migrations
+const django_migrations = require('./bettercalendar.django_migrations.json');
 db.createCollection("django_migrations");
-fetch('./bettercalendar.django_migrations.json')
-.then((res) => {
-    return res.json()
-})
-.then((data) => {
-    db.django_migrations.insertMany(data);
-});
+db.django_migrations.insertMany(django_migrations);
 
 // django_content_type
+const django_content_type = require('./bettercalendar.django_content_type.json');
 db.createCollection("django_content_type");
-fetch('./bettercalendar.django_content_type.json')
-.then((res) => {
-    return res.json()
-})
-.then((data) => {
-    db.django_content_type.insertMany(data);
-});
+db.django_content_type.insertMany(django_content_type);
 
 // django_admin_log
+const django_admin_log = require('./bettercalendar.django_admin_log.json');
 db.createCollection("django_admin_log");
-fetch('./bettercalendar.django_admin_log.json')
-.then((res) => {
-    return res.json()
-})
-.then((data) => {
-    db.django_admin_log.insertMany(data);
-});
+db.django_admin_log.insertMany(django_admin_log);
 
 // auth_permission
+const auth_permission = require('./bettercalendar.auth_permission.json');
 db.createCollection("auth_permission");
-fetch('./bettercalendar.auth_permission.json')
-.then((res) => {
-    return res.json()
-})
-.then((data) => {
-    db.auth_permission.insertMany(data);
-});
+db.auth_permission.insertMany(auth_permission);
 
 // auth_group_permissions
+const auth_group_permissions = require('./bettercalendar.auth_group_permissions.json');
 db.createCollection("auth_group_permissions");
-fetch('./bettercalendar.auth_group_permissions.json')
-.then((res) => {
-    return res.json()
-})
-.then((data) => {
-    db.auth_group_permissions.insertMany(data);
-});
+db.auth_group_permissions.insertMany(auth_group_permissions);
 
 // auth_group
+const auth_group = require('./bettercalendar.auth_group.json');
 db.createCollection("auth_group");
-fetch('./bettercalendar.auth_group.json')
-.then((res) => {
-    return res.json()
-})
-.then((data) => {
-    db.auth_group.insertMany(data);
-});
+db.auth_group.insertMany(auth_group);
 
 // __schema__
+const __schema__ = require('./bettercalendar.__schema__.json');
 db.createCollection("__schema__");
-fetch('./bettercalendar.__schema__.json')
-.then((res) => {
-    return res.json()
-})
-.then((data) => {
-    db.__schema__.insertMany(data);
-});
+db.__schema__.insertMany(__schema__);
 
 // API_user_user_permissions
+const API_user_user_permissions = require('./bettercalendar.API_user_user_permissions.json');
 db.createCollection("API_user_user_permissions");
-fetch('./bettercalendar.API_user_user_permissions.json')
-.then((res) => {
-    return res.json()
-})
-.then((data) => {
-    db.API_user_user_permissions.insertMany(data);
-});
+db.API_user_user_permissions.insertMany(API_user_user_permissions);
 
 // API_user_groups
+const API_user_groups = require('./bettercalendar.API_user_groups.json');
 db.createCollection("API_user_groups");
-fetch('./bettercalendar.API_user_groups.json')
-.then((res) => {
-    return res.json()
-})
-.then((data) => {
-    db.API_user_groups.insertMany(data);
-});
+db.API_user_groups.insertMany(API_user_groups);
+
+// API_user
+const API_user = require('./bettercalendar.API_user.json');
+db.createCollection("API_user");
+db.API_user.insertMany(API_user);
 
 // API_category
+const API_category = require('./bettercalendar.API_category.json');
 db.createCollection("API_category");
-fetch('./bettercalendar.API_category.json')
-.then((res) => {
-    return res.json()
-})
-.then((data) => {
-    db.API_category.insertMany(data);
-});
+db.API_category.insertMany(API_category);
 
 // API_activity
+const API_activity = require('./bettercalendar.API_activity.json');
 db.createCollection("API_activity");
-fetch('./bettercalendar.API_activity.json')
-.then((res) => {
-    return res.json()
-})
-.then((data) => {
-    db.API_activity.insertMany(data);
-});
+db.API_activity.insertMany(API_activity);
